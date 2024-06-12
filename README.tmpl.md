@@ -6,6 +6,7 @@
 - or simply browse & view ...
    - [the `docs` with *Twentytwentyfour*](https://playground.wordpress.net/?url=/?p=173&login=yes&import-wxr=https://raw.githubusercontent.com/author_name/project_urlname/main/export.xml).
    - [the `docs` with *Disco*](https://playground.wordpress.net/?url=/?p=173&login=yes&import-wxr=https://raw.githubusercontent.com/author_name/project_urlname/main/export.xml&theme=disco).
+   - [the `docs` with *Ollie*](https://playground.wordpress.net/?url=/?p=173&login=yes&import-wxr=https://raw.githubusercontent.com/author_name/project_urlname/main/export.xml&theme=ollie).
 
 ## How
 

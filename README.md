@@ -9,6 +9,7 @@ https://github.com/carstingaxion/gatherpress-demo-data/assets/198883/79c19cab-24
 - or simply browse & view ...
    - [the `docs` with *Twentytwentyfour*](https://playground.wordpress.net/?url=/?p=173&login=yes&import-wxr=https://raw.githubusercontent.com/carstingaxion/crud-the-docs-playground/main/export.xml).
    - [the `docs` with *Disco*](https://playground.wordpress.net/?url=/?p=173&login=yes&import-wxr=https://raw.githubusercontent.com/carstingaxion/crud-the-docs-playground/main/export.xml&theme=disco).
+   - [the `docs` with *Ollie*](https://playground.wordpress.net/?url=/?p=173&login=yes&import-wxr=https://raw.githubusercontent.com/carstingaxion/crud-the-docs-playground/main/export.xml&theme=ollie).
 
 ## How
 
