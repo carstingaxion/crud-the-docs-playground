@@ -2,11 +2,11 @@
 
 ## What
 
-- [Create, read update, delete & save][export-to-github] the demo-data using Playground and persist it with prepared settings for GitHub Export.
+- [Create, read update, delete & save][export-to-github] `project_urlname` using Playground and persist it with prepared settings for GitHub Export.
 - or simply browse & view ...
-   - [the `docs` with *Twentytwentyfour*](https://playground.wordpress.net/?url=/?p=173&login=yes&import-wxr=https://raw.githubusercontent.com/author_name/project_urlname/main/export.xml).
-   - [the `docs` with *Disco*](https://playground.wordpress.net/?url=/?p=173&login=yes&import-wxr=https://raw.githubusercontent.com/author_name/project_urlname/main/export.xml&theme=disco).
-   - [the `docs` with *Ollie*](https://playground.wordpress.net/?url=/?p=173&login=yes&import-wxr=https://raw.githubusercontent.com/author_name/project_urlname/main/export.xml&theme=ollie).
+   - [`project_urlname` with *Twentytwentyfour*](https://playground.wordpress.net/?url=/?p=173&login=yes&import-wxr=https://raw.githubusercontent.com/author_name/project_urlname/main/export.xml).
+   - [`project_urlname` with *Disco*](https://playground.wordpress.net/?url=/?p=173&login=yes&import-wxr=https://raw.githubusercontent.com/author_name/project_urlname/main/export.xml&theme=disco).
+   - [`project_urlname` with *Ollie*](https://playground.wordpress.net/?url=/?p=173&login=yes&import-wxr=https://raw.githubusercontent.com/author_name/project_urlname/main/export.xml&theme=ollie).
 
 ## How
 
