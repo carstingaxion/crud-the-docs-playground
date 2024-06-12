@@ -1,9 +1,6 @@
-# CRUD the `project_name` with Playground
+# CRUD the `project_urlname` with Playground
 
-https://github.com/author_name/gatherpress-demo-data/assets/198883/79c19cab-24f0-47e8-9710-832aed7938ca
-
-
-# What
+## What
 
 - [Create, read update, delete & save][export-to-github] the demo-data using Playground and persist it with prepared settings for GitHub Export.
 - or simply browse & view ...
