@@ -7,8 +7,8 @@ https://github.com/carstingaxion/gatherpress-demo-data/assets/198883/79c19cab-24
 
 - [Create, read update, delete & save][export-to-github] the demo-data using Playground and persist it with prepared settings for GitHub Export.
 - or simply browse & view ...
-   - [the `docs` with *Twentytwentyfour*](https://playground.wordpress.net/?login=yes&import-wxr=https://raw.githubusercontent.com/carstingaxion/crud-the-docs-playground/main/export.xml).
-   - [the `docs` with *Disco*](https://playground.wordpress.net/?login=yes&import-wxr=https://raw.githubusercontent.com/carstingaxion/crud-the-docs-playground/main/export.xml&theme=disco).
+   - [the `docs` with *Twentytwentyfour*](https://playground.wordpress.net/?url=/?p=173&login=yes&import-wxr=https://raw.githubusercontent.com/carstingaxion/crud-the-docs-playground/main/export.xml).
+   - [the `docs` with *Disco*](https://playground.wordpress.net/?url=/?p=173&login=yes&import-wxr=https://raw.githubusercontent.com/carstingaxion/crud-the-docs-playground/main/export.xml&theme=disco).
 
 ## How
 

@@ -61,7 +61,7 @@
 
 <!-- wp:buttons -->
 <div class="wp-block-buttons"><!-- wp:button -->
-<div class="wp-block-button"><a class="wp-block-button__link wp-element-button">Create &amp; Save Demo Data</a></div>
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="https://github.com/carstingaxion/crud-the-docs-playground">Create &amp; Save Demo Data</a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons -->
 

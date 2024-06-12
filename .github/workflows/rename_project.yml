@@ -6,7 +6,7 @@ permissions: write-all
 
 jobs:
   rename-project:
-    if: ${{ !contains (github.repository, '/crud-wp-content-playground') }}
+    if: ${{ !contains (github.repository, '/crud-the-docs-playground') }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
