@@ -1,14 +1,14 @@
-# CRUD the `docs` with Playground
+# CRUD the `project_name` with Playground
 
-https://github.com/carstingaxion/gatherpress-demo-data/assets/198883/79c19cab-24f0-47e8-9710-832aed7938ca
+https://github.com/author_name/gatherpress-demo-data/assets/198883/79c19cab-24f0-47e8-9710-832aed7938ca
 
 
 # What
 
 - [Create, read update, delete & save][export-to-github] the demo-data using Playground and persist it with prepared settings for GitHub Export.
 - or simply browse & view ...
-   - [the `docs` with *Twentytwentyfour*](https://playground.wordpress.net/?login=yes&import-wxr=https://raw.githubusercontent.com/carstingaxion/crud-the-docs-playground/main/export.xml).
-   - [the `docs` with *Disco*](https://playground.wordpress.net/?login=yes&import-wxr=https://raw.githubusercontent.com/carstingaxion/crud-the-docs-playground/main/export.xml&theme=disco).
+   - [the `docs` with *Twentytwentyfour*](https://playground.wordpress.net/?login=yes&import-wxr=https://raw.githubusercontent.com/author_name/project_urlname/main/export.xml).
+   - [the `docs` with *Disco*](https://playground.wordpress.net/?login=yes&import-wxr=https://raw.githubusercontent.com/author_name/project_urlname/main/export.xml&theme=disco).
 
 ## How
 
@@ -23,9 +23,9 @@ https://github.com/carstingaxion/gatherpress-demo-data/assets/198883/79c19cab-24
     "step": "setSiteOptions",
     "options": {
         "blogname": "Books",
-        "blogdescription": "Books with WordPress.",
+        "blogdescription": "CRUD the Books in Playground.",
         "wordpress_export_to_server__file": "books.xml",
-        "wordpress_export_to_server__owner_repo_branch": "carstingaxion/example-books/main",
+        "wordpress_export_to_server__owner_repo_branch": "author_name/example-books/main",
         "wordpress_export_to_server__export_home": "https://example.test/books"
     }
 }
@@ -55,7 +55,7 @@ https://github.com/carstingaxion/gatherpress-demo-data/assets/198883/79c19cab-24
 - [How to add demo content in WordPress](https://learn.wordpress.org/lesson-plan/how-to-add-demo-content-in-wordpress/) - Learn WordPress
 
 
-[builder]: https://playground.wordpress.net/builder/builder.html?blueprint-url=https://raw.githubusercontent.com/carstingaxion/crud-the-docs-playground/main/blueprints/blueprint.json
+[builder]: https://playground.wordpress.net/builder/builder.html?blueprint-url=https://raw.githubusercontent.com/author_name/project_urlname/main/blueprints/blueprint.json
 
 
-[export-to-github]: https://playground.wordpress.net/?blueprint-url=https://raw.githubusercontent.com/carstingaxion/crud-the-docs-playground/main/blueprints/blueprint.json&gh-ensure-auth=yes&ghexport-repo-url=https://github.com/carstingaxion/crud-the-docs-playground&ghexport-pr-action=create&ghexport-playground-root=/wordpress/wp-content/crud-the-docs-playground-main&ghexport-repo-root=/&ghexport-path=.&ghexport-content-type=custom-paths&ghexport-commit-message=Changes%20from%20Playground&ghexport-allow-include-zip=no
+[export-to-github]: https://playground.wordpress.net/?blueprint-url=https://raw.githubusercontent.com/author_name/project_urlname/main/blueprints/blueprint.json&gh-ensure-auth=yes&ghexport-repo-url=https://github.com/author_name/project_urlname&ghexport-pr-action=create&ghexport-playground-root=/wordpress/wp-content/project_urlname-main&ghexport-repo-root=/&ghexport-path=.&ghexport-content-type=custom-paths&ghexport-commit-message=Changes%20from%20Playground&ghexport-allow-include-zip=no

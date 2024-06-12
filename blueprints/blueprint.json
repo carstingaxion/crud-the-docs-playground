@@ -1,0 +1,87 @@
+{
+  "$schema": "https://playground.wordpress.net/blueprint-schema.json",
+  "preferredVersions": {
+    "php": "8.2",
+    "wp": "latest"
+  },
+  "phpExtensionBundles": [
+    "kitchen-sink"
+  ],
+  "features": {
+    "networking": true
+  },
+  "landingPage": "https://playground.wordpress.net/wp-admin/edit.php",
+  "steps": [
+     {
+      "step": "setSiteOptions",
+      "options": {
+        "blogname": "project_name",
+        "blogdescription": "project_description",
+        "wordpress_export_to_server__owner_repo_branch": "author_name/project_urlname/main"
+      }
+    },
+    {
+      "step": "defineWpConfigConsts",
+      "consts": {
+          "UPLOADS": "wp-content/project_urlname-main"
+      }
+    },
+    {
+      "step": "runPHP",
+      "code": "<?php require '/wordpress/wp-load.php'; add_filter( 'import_allow_fetch_attachments', '__return_false' );"
+    },
+    {
+      "step": "login",
+      "username": "admin",
+      "password": "password"
+    },
+    {
+      "step": "wp-cli",
+      "command": " wp post delete 1 2 3 --force",
+      "progress": {
+        "weight": 10,
+				"caption": "Deleting the WordPress default content."
+			}
+    },
+    {
+      "step": "writeFile",
+      "path": "/wordpress/wp-content/project_urlname.zip",
+      "data": {
+        "resource": "url",
+        "url": "https://github-proxy.com/proxy/?repo=author_name/project_urlname",
+        "caption": "Downloading project_name repository."
+      },
+      "progress": {
+        "weight": 2,
+        "caption": "Applying project_name files."
+      }
+    },
+    {
+      "step": "unzip",
+      "zipFile": {
+        "resource": "vfs",
+        "path": "/wordpress/wp-content/project_urlname.zip"
+      },
+      "extractToPath": "/wordpress/wp-content"
+    },
+    {
+      "step": "writeFile",
+      "path": "/wordpress/wp-content/mu-plugins/wordpress-export-to-server.php",
+      "data": {
+        "resource": "url",
+        "url": "https://raw.githubusercontent.com/carstingaxion/wordpress-export-to-server/main/wordpress-export-to-server.php"
+      }
+    },
+    {
+      "step": "installPlugin",
+      "pluginZipFile": {
+        "resource": "url",
+        "url": "https://github-proxy.com/proxy/?repo=humanmade/WordPress-Importer"
+      }
+    },
+    {
+      "step": "runPHP",
+      "code": "<?php require '/wordpress/wp-load.php';$path = realpath( '/wordpress/wp-content/project_urlname-main/export.xml' );$logger = new WP_Importer_Logger_CLI();$logger->min_level = 'info';$options = array( 'fetch_attachments' => false, 'default_author' => 1,);$importer = new WXR_Importer( $options );$importer->set_logger( $logger );$result = $importer->import( $path );"
+    }
+  ]
+}
