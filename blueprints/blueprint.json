@@ -15,15 +15,15 @@
      {
       "step": "setSiteOptions",
       "options": {
-        "blogname": "project_name",
-        "blogdescription": "project_description",
-        "wordpress_export_to_server__owner_repo_branch": "author_name/project_urlname/main"
+        "blogname": "crud_the_docs_playground",
+        "blogdescription": "CRUD the crud_the_docs_playground in Playground.",
+        "wordpress_export_to_server__owner_repo_branch": "carstingaxion/crud-the-docs-playground/main"
       }
     },
     {
       "step": "defineWpConfigConsts",
       "consts": {
-          "UPLOADS": "wp-content/project_urlname-main"
+          "UPLOADS": "wp-content/crud-the-docs-playground-main"
       }
     },
     {
@@ -45,22 +45,22 @@
     },
     {
       "step": "writeFile",
-      "path": "/wordpress/wp-content/project_urlname.zip",
+      "path": "/wordpress/wp-content/crud-the-docs-playground.zip",
       "data": {
         "resource": "url",
-        "url": "https://github-proxy.com/proxy/?repo=author_name/project_urlname",
-        "caption": "Downloading project_name repository."
+        "url": "https://github-proxy.com/proxy/?repo=carstingaxion/crud-the-docs-playground",
+        "caption": "Downloading crud_the_docs_playground repository."
       },
       "progress": {
         "weight": 2,
-        "caption": "Applying project_name files."
+        "caption": "Applying crud_the_docs_playground files."
       }
     },
     {
       "step": "unzip",
       "zipFile": {
         "resource": "vfs",
-        "path": "/wordpress/wp-content/project_urlname.zip"
+        "path": "/wordpress/wp-content/crud-the-docs-playground.zip"
       },
       "extractToPath": "/wordpress/wp-content"
     },
@@ -81,7 +81,7 @@
     },
     {
       "step": "runPHP",
-      "code": "<?php require '/wordpress/wp-load.php';$path = realpath( '/wordpress/wp-content/project_urlname-main/export.xml' );$logger = new WP_Importer_Logger_CLI();$logger->min_level = 'info';$options = array( 'fetch_attachments' => false, 'default_author' => 1,);$importer = new WXR_Importer( $options );$importer->set_logger( $logger );$result = $importer->import( $path );"
+      "code": "<?php require '/wordpress/wp-load.php';$path = realpath( '/wordpress/wp-content/crud-the-docs-playground-main/export.xml' );$logger = new WP_Importer_Logger_CLI();$logger->min_level = 'info';$options = array( 'fetch_attachments' => false, 'default_author' => 1,);$importer = new WXR_Importer( $options );$importer->set_logger( $logger );$result = $importer->import( $path );"
     }
   ]
 }

@@ -26,14 +26,14 @@
 >
 
 <channel>
-	<title>project_name</title>
-	<link>https://project_urlname.test/</link>
-	<description>project_description</description>
+	<title>crud_the_docs_playground</title>
+	<link>https://crud-the-docs-playground.test/</link>
+	<description>CRUD the crud_the_docs_playground in Playground.</description>
 	<pubDate>Tue, 11 Jun 2024 11:57:56 +0000</pubDate>
 	<language>en-US</language>
 	<wp:wxr_version>1.2</wp:wxr_version>
-	<wp:base_site_url>https://project_urlname.test/</wp:base_site_url>
-	<wp:base_blog_url>https://project_urlname.test</wp:base_blog_url>
+	<wp:base_site_url>https://crud-the-docs-playground.test/</wp:base_site_url>
+	<wp:base_blog_url>https://crud-the-docs-playground.test</wp:base_blog_url>
 
 		<wp:author><wp:author_id>1</wp:author_id><wp:author_login><![CDATA[admin]]></wp:author_login><wp:author_email><![CDATA[admin@localhost.com]]></wp:author_email><wp:author_display_name><![CDATA[admin]]></wp:author_display_name><wp:author_first_name><![CDATA[]]></wp:author_first_name><wp:author_last_name><![CDATA[]]></wp:author_last_name></wp:author>
 
@@ -49,10 +49,10 @@
 
 					<item>
 		<title><![CDATA[CRUD the docs with Playground]]></title>
-		<link>https://project_urlname.test/2024/06/crud-the-docs-with-playground/</link>
+		<link>https://crud-the-docs-playground.test/2024/06/crud-the-docs-with-playground/</link>
 		<pubDate>Wed, 12 Jun 2024 15:16:37 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://project_urlname.test/?p=173</guid>
+		<guid isPermaLink="false">https://crud-the-docs-playground.test/?p=173</guid>
 		<description></description>
 		<content:encoded><![CDATA[<!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap"}} -->
 <div class="wp-block-group"><!-- wp:paragraph -->

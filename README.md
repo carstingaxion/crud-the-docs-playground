@@ -1,4 +1,4 @@
-# CRUD the `docs` with Playground
+# CRUD the `crud_the_docs_playground` with Playground
 
 https://github.com/carstingaxion/gatherpress-demo-data/assets/198883/79c19cab-24f0-47e8-9710-832aed7938ca
 
@@ -23,7 +23,7 @@ https://github.com/carstingaxion/gatherpress-demo-data/assets/198883/79c19cab-24
     "step": "setSiteOptions",
     "options": {
         "blogname": "Books",
-        "blogdescription": "Books with WordPress.",
+        "blogdescription": "CRUD the Books in Playground.",
         "wordpress_export_to_server__file": "books.xml",
         "wordpress_export_to_server__owner_repo_branch": "carstingaxion/example-books/main",
         "wordpress_export_to_server__export_home": "https://example.test/books"
