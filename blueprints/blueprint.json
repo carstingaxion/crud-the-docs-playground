@@ -17,7 +17,8 @@
       "options": {
         "blogname": "project_urlname",
         "blogdescription": "CRUD the project_urlname in Playground.",
-        "wordpress_export_to_server__owner_repo_branch": "author_name/project_urlname/main"
+        "wordpress_export_to_server__owner_repo_branch": "author_name/project_urlname/main",
+        "wordpress_export_to_server__export_home": "https://project_urlname.test"
       }
     },
     {
