@@ -1,4 +1,4 @@
-# CRUD the `crud_the_docs_playground` with Playground
+# CRUD the `docs` with Playground
 
 https://github.com/carstingaxion/gatherpress-demo-data/assets/198883/79c19cab-24f0-47e8-9710-832aed7938ca
 
