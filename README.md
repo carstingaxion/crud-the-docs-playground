@@ -56,6 +56,12 @@ https://github.com/carstingaxion/gatherpress-demo-data/assets/198883/79c19cab-24
 - [How to add demo content in WordPress](https://learn.wordpress.org/lesson-plan/how-to-add-demo-content-in-wordpress/) - Learn WordPress
 
 
+## Acknowledgments
+
+  - [python-project-template](https://github.com/rochacbruno/python-project-template) for their nice template->repo renaming workflow
+
+
+
 [builder]: https://playground.wordpress.net/builder/builder.html?blueprint-url=https://raw.githubusercontent.com/carstingaxion/crud-the-docs-playground/main/blueprints/blueprint.json
 
 
