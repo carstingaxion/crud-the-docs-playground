@@ -1,6 +1,6 @@
 # CRUD the `docs` with Playground
 
-https://github.com/carstingaxion/gatherpress-demo-data/assets/198883/79c19cab-24f0-47e8-9710-832aed7938ca
+https://github.com/GatherPress/gatherpress-demo-data/assets/198883/79c19cab-24f0-47e8-9710-832aed7938ca
 
 
 ## What
@@ -42,7 +42,7 @@ This happens within an automated first commit directly after the repo gets initi
 >
 > https://gatherpress.slack.com/archives/CNZS6PPFZ/p1717928500570539
 
-https://github.com/carstingaxion/gatherpress-demo-data
+https://github.com/GatherPress/gatherpress-demo-data
 
 ## How
 

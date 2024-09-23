@@ -39,7 +39,7 @@ This happens within an automated first commit directly after the repo gets initi
 >
 > https://gatherpress.slack.com/archives/CNZS6PPFZ/p1717928500570539
 
-https://github.com/carstingaxion/gatherpress-demo-data
+https://github.com/GatherPress/gatherpress-demo-data
 
 ## How
 
